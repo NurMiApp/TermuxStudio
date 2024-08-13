@@ -213,7 +213,7 @@ then
 	usage
 	exit 1
 fi
-printf "\n${yellow} You are going to install Alpine in termux ;) Cool\n press ENTER to continue\n"
+printf "\n${yellow} You are going to install Studio in Termux Cool\n press ENTER to continue\n"
 read enter
 
 checksysinfo
@@ -224,10 +224,10 @@ checkintegrity
 extract
 createloginfile
 
-printf "$blue [*] Configuring Alpine For You ..."
+printf "$blue [*] Configuring Termux Studio for you ..."
 finalwork
 printline
-printf "\n${yellow} Now you can enjoy a very small (just 1 MB!) Linux environment in your Termux :)\n Don't forget to star my work\n"
+printf "\n${yellow} Now you can enjoy a very small (just 1 MB!) Linux environment in your Termux \n Don't forget to star my work\n"
 printline
 printline
 printf "\n${blue} [*] Email   :${yellow}    lkpandey950@gmail.com\n"
