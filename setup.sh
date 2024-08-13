@@ -17,7 +17,7 @@ reset='\033[0m'
 DESTINATION=${PREFIX}/share/TermuxAlpine
 choice=""
 if [ -d ${DESTINATION} ]; then
-	printf "${red}[!] ${yellow}Do you can unset (YES/NO)? :${reset} "
+	printf "${red}[!] ${yellow}Setup in check and failed (YES/NO)? :${reset} "
 	read choice
 	if [ "${choice}" = "yes" ]; then
 		rm -rf ${DESTINATION}
